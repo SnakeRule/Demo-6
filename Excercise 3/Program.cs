@@ -8,6 +8,8 @@ namespace Excercise_3
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
             Deck deck = new Deck();
@@ -32,6 +34,10 @@ namespace Excercise_3
                 Card card = new Card { Suit = "Clubs", Number = i };
                 deck.Addcard(card);
             }
+
+            deck.ShowDeck();
+
+            deck.ShuffleDeck();
 
             deck.ShowDeck();
         }
