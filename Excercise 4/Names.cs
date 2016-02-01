@@ -8,8 +8,6 @@ namespace Excercise_4
 {
     class Names
     {
-
-        Random namerand = new Random();
         public List<Name> names;
 
         public Names()

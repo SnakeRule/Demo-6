@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Name.cs" />
+    <Compile Include="NameD.cs" />
     <Compile Include="Names.cs" />
+    <Compile Include="NamesD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
