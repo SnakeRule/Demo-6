@@ -8,26 +8,23 @@ namespace Excercise_4
 {
     class Names
     {
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
-        public char[] letters = new char[25] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'W', 'X', 'Y', 'Z' }; 
 
         Random namerand = new Random();
-        public List<Names> names;
+        public List<Name> names;
 
         public Names()
         {
-            names = new List<Names>();
+            names = new List<Name>();
         }
 
-        public void Addname(Names fullname)
+        public void Addname(Name name)
         {
-            names.Add(fullname);
+            names.Add(name);
         }
 
         public void ShowNames()
         {
-            foreach(Names fullname in names)
+            foreach(Name fullname in names)
             {
                 Console.WriteLine(fullname.Firstname + " " + fullname.Lastname);
             }
